@@ -1,0 +1,71 @@
+body {
+    background-image: url("https://images.unsplash.com/photo-1481455473976-c280ae7c10f9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100vh;
+}
+
+#btn {
+    background-color: #e2f3f3;
+    padding: 10px;
+    border: 3px solid #B0E0E6;
+    border-radius: 50px;
+    font-family: 'Pacifico', cursive;
+    font-size: 22px;
+    color: #8B4513;
+    margin-top: -150px ;
+    position: fixed;
+}
+
+#myButton {
+    margin-top: -150px ;
+    background-color: rgba(0, 0, 0, 0.0);
+    border: none;
+    margin-left: -520px;
+    position: fixed;
+}
+
+#par {
+    display: none;
+    color: #8B4513;
+    background-color: #e2f3f3;
+    padding: 20px;
+    border: 3px solid #8FBC8F;
+    border-radius: 50px;
+    margin-top: 200px;
+    text-align: center;
+    width: 30%;
+    font-size: 17px;
+    font-family: 'Pacifico', cursive;
+    position: fixed;
+}
+
+@media all and (max-width:800px) {
+
+    #btn {
+        width: 70%;
+        font-size: 22px;
+    }
+
+    #myButton {
+        margin-top: -400px;
+        margin-left: 10px;
+    }
+
+    #par {
+        margin-top: 300px;
+        width: 70%;
+        background-color: #fff;
+    }
+}
